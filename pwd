@@ -13,7 +13,7 @@ lower,upper,sp, digit = 0,0,0,0
       sp +=1
       
  if(lower >= 1 and upper >= 1 and sp >= 1 and digit >= 1 and lower+upper+sp+digit == len(pwd)):
-    print("valid password");
+    print("thre entered password is valid ");
  else:
     print("password is not valid");
     
